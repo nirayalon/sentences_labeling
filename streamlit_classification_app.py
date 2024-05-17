@@ -4,6 +4,7 @@ from streamlit import session_state as state
 from single_pair import SinglePair
 from users import User
 from constants import *
+import json
 
 
 def init_users(users_sheet):
@@ -20,7 +21,7 @@ def init_state():
     """
     if INDEX not in state:
         state.index = 0
-        gc = gspread.service_account_from_dict(credentials)
+        gc = gspread.service_account_from_dict(json.loads(credentials))
         sh = gc.open("classification_DB")
         state.sheet = sh.worksheet("ClassificationSheet")
         state.users_sheet = sh.worksheet("RowsDivider")

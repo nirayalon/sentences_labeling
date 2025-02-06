@@ -1,6 +1,6 @@
-# sentences_labeling
+# Sentences Labeling
 
-# Getting Started
+## Getting Started
 1. **Clone the repository**:
   ```bash
   git clone [https://github.com/YOUR_USERNAME/sentences_labeling.git](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/sentences_labeling.git)  # Replace with your repo URL
@@ -21,7 +21,7 @@ If using the devcontainer, VS Code will handle this for you. Otherwise, install 
 5. **Open the app in your browser**: Streamlit will provide a URL to access the application.
 
 
-# Usage
+## Usage
 1. Choose your name from the radio button on the home page.
 2. Click "Apply".
 3. You will be taken to the labeling page, where you will see pairs of sentences.
@@ -30,5 +30,5 @@ If using the devcontainer, VS Code will handle this for you. Otherwise, install 
 6. Click "Next" to move to the next pair.
 7. Click "Done for today" when you are finished labeling.
 
-# Contributing
+## Contributing
 Contributions are welcome!  Please open an issue or submit a pull request.
